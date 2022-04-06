@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AcademicsComponent } from './academics/academics.component';
 import { SkillsComponent } from './skills/skills.component';
+import { ContactsComponent } from './contacts/contacts.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AcademicsComponent,
-    SkillsComponent
+    SkillsComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,
