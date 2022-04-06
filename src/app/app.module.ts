@@ -8,6 +8,7 @@ import { AcademicsComponent } from './academics/academics.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { EmploymentHistoryComponent } from './employment-history/employment-history.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { EmploymentHistoryComponent } from './employment-history/employment-hist
     AcademicsComponent,
     SkillsComponent,
     ContactsComponent,
-    EmploymentHistoryComponent
+    EmploymentHistoryComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
