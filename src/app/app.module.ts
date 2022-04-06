@@ -7,13 +7,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AcademicsComponent } from './academics/academics.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ContactsComponent } from './contacts/contacts.component';
+import { EmploymentHistoryComponent } from './employment-history/employment-history.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AcademicsComponent,
     SkillsComponent,
-    ContactsComponent
+    ContactsComponent,
+    EmploymentHistoryComponent
   ],
   imports: [
     BrowserModule,
