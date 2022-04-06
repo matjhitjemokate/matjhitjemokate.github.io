@@ -26,6 +26,15 @@ const routes: Routes = [
   {
     path: 'skills',
     component: SkillsComponent
+  },
+  { 
+    path: '', 
+    component: HomeComponent,
+    pathMatch: 'full'
+  },
+  { 
+    path: '**', 
+    redirectTo: ''
   }
 ];
 
