@@ -19,6 +19,8 @@ import { MatGridListModule } from '@angular/material/grid-list';
 
 import { MatCardModule } from '@angular/material/card';
 
+import { MatExpansionModule } from '@angular/material/expansion';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,7 +39,8 @@ import { MatCardModule } from '@angular/material/card';
     MatIconModule,
     MatMenuModule,
     MatGridListModule,
-    MatCardModule
+    MatCardModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
