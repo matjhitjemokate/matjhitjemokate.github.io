@@ -1,7 +1,38 @@
-.container{ margin-left: auto; margin-right: auto; }
-.example-spacer { flex: 1 1 auto; }
-a:link { color: rgb(2, 58, 91); }
-a:visited { color: rgb(2, 58, 91); } 
-a:hover { color: rgba(6, 84, 105, 0.134); }
-a:active { color: blue; }
-a { text-decoration: none; }
+.container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.example-spacer {
+	flex: 1 1 auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+span>a {
+	color: rgb(0, 40, 134);
+}
+
+a {
+	color: white;
+	font-size: large;
+}
+
+a:hover {
+	color: rgb(255, 0, 0);
+}
+
+.footer {
+	background-color: #0a2f5b;
+	text-align: center;
+	justify-content: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+p {
+    font-size: large;
+    color: white;
+}
