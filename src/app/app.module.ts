@@ -21,6 +21,8 @@ import { MatCardModule } from '@angular/material/card';
 
 import { MatExpansionModule } from '@angular/material/expansion';
 
+import { MatDividerModule } from '@angular/material/divider';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,7 +42,8 @@ import { MatExpansionModule } from '@angular/material/expansion';
     MatMenuModule,
     MatGridListModule,
     MatCardModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatDividerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
