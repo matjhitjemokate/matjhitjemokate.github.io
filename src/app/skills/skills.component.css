@@ -1,7 +1,11 @@
 .container {
+    max-width: 780px;
     margin: 32px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .example-card {
+    max-width: 780px;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
