@@ -25,6 +25,8 @@ import { MatDividerModule } from '@angular/material/divider';
 
 import { MatTabsModule } from '@angular/material/tabs';
 
+import { MatTooltipModule } from '@angular/material/tooltip';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -46,7 +48,8 @@ import { MatTabsModule } from '@angular/material/tabs';
     MatCardModule,
     MatExpansionModule,
     MatDividerModule,
-    MatTabsModule
+    MatTabsModule,
+    MatTooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]
