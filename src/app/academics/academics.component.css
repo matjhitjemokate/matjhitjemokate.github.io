@@ -1,5 +1,8 @@
 .container {
+    max-width: 800px;
     margin: 32px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .logo {
