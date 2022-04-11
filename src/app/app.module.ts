@@ -23,6 +23,8 @@ import { MatExpansionModule } from '@angular/material/expansion';
 
 import { MatDividerModule } from '@angular/material/divider';
 
+import { MatTabsModule } from '@angular/material/tabs';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -43,7 +45,8 @@ import { MatDividerModule } from '@angular/material/divider';
     MatGridListModule,
     MatCardModule,
     MatExpansionModule,
-    MatDividerModule
+    MatDividerModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
