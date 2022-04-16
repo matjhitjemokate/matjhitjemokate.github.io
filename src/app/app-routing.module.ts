@@ -5,6 +5,7 @@ import { AcademicsComponent } from './academics/academics.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { EmploymentHistoryComponent } from './employment-history/employment-history.component';
 import { SkillsComponent } from './skills/skills.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 const routes: Routes = [
   {
@@ -32,10 +33,9 @@ const routes: Routes = [
     component: HomeComponent,
     pathMatch: 'full'
   },
-  { 
-    path: '**', 
-    redirectTo: ''
-  }
+  { path: '**', 
+    pathMatch: 'full', 
+    component: PageNotFoundComponent }
 ];
 
 @NgModule({
