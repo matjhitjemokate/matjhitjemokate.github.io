@@ -21,6 +21,7 @@ import { MatExpansionModule } from '@angular/material/expansion';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatTooltipModule } from '@angular/material/tooltip';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { MatTooltipModule } from '@angular/material/tooltip';
     SkillsComponent,
     ContactsComponent,
     EmploymentHistoryComponent,
-    HomeComponent
+    HomeComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
